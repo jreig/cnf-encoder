@@ -1,6 +1,10 @@
+![GitHub](https://img.shields.io/github/license/jreig/cnf-encoder)
+
 # cnf-encoder
 
-**cnf-encoder** is a Python library for dealing with propositional formulas and transform them into Conjuntive Normal Form (CNF) formulas. Aditionaly, the package contains data structures to manage CNF and tools for encoding to and read from DIMACS file format.
+**cnf-encoder** is a Python library for dealing with propositional formulas and transform them into CNF formulas. Aditionaly, the package contains data structures to manage them and tools for encoding to and DIMACS file format.
+
+Transformation is done using Tseytin transformation.
 
 ## Installation
 
@@ -14,10 +18,6 @@ pip install cnf-encoder
 
 ```python
 import cnf-encoder
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
 ```
 
 ## Contributing
@@ -26,4 +26,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## License
-[MIT](LICENSE)
+The package is licensed under [MIT](LICENSE) license
