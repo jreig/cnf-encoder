@@ -3,9 +3,9 @@ import os
 
 class CNF:
     """
-    Represents a CNF storing the total number of variables and a list of clauses.
-    The clauses are represented by a list of literals, where each literal is
-    an integer. Negative integers represents negated literals.
+    Store the total number of variables and the list of clauses of the CNF.
+    Clauses are represented by a list of literals, where each literal is encoded
+    using an integer. Negative integers represents negated literals.
     """
 
     def __init__(self):

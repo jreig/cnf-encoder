@@ -1,8 +1,6 @@
 from unittest import TestCase
 import os
 
-import cnfencoder
-
 from cnfencoder import CNF
 
 DIMACS_EXAMPLE = "p cnf 3 2" + os.linesep + \
